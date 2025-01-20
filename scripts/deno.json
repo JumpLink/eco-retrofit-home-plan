@@ -1,0 +1,35 @@
+{
+  "lock": false,
+  "tasks": {
+    "dev": "deno run --allow-read --allow-write cli/main.ts",
+    "test": "deno test --allow-read --allow-write"
+  },
+  "importMap": "./import_map.json",
+  "compilerOptions": {
+    "lib": ["deno.ns", "dom"],
+    "strict": true
+  },
+  "lint": {
+    "files": {
+      "include": ["scripts/**/*.ts"],
+      "exclude": ["scripts/**/*.test.ts"]
+    },
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["ban-untagged-todo"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": ["scripts/**/*.ts"],
+      "exclude": ["scripts/**/*.test.ts"]
+    },
+    "options": {
+      "useTabs": false,
+      "lineWidth": 80,
+      "indentWidth": 2,
+      "singleQuote": false,
+      "proseWrap": "preserve"
+    }
+  }
+}
