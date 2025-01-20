@@ -38,6 +38,12 @@ git clone https://github.com/JumpLink/eco-retrofit-home-plan.git
 eco-retrofit-home-plan/
 ├── docs/                 # Detailed project documentation
 ├── plans/                # Architectural blueprints (e.g., DXF, Home Sweet 3D)
+│   └── layers/          # Floor plan layers:
+│       ├── Basement     # Cellar/underground level
+│       ├── Plinth       # Foundation level
+│       ├── Ground Floor # Main floor
+│       ├── First Floor  # Upper floor
+│       └── Surroundings # Exterior areas and landscaping
 ├── media/                # Images and videos of the progress
 ├── scripts/              # TypeScript scripts for calculations and tools
 ├── community/            # Contribution guidelines and feedback templates
@@ -65,7 +71,7 @@ For full details, see the [LICENSE](./LICENSE) file or visit [Creative Commons](
 
 ## How to Contribute
 
-We welcome contributions! Here’s how you can help:
+We welcome contributions! Here's how you can help:
 
 1. **Report Issues:** Found a bug or have a suggestion? Open an issue on GitHub.
 2. **Submit Pull Requests:** Contribute improvements or new features.
