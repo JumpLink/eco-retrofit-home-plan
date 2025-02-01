@@ -22,7 +22,10 @@ Welcome to the **Eco Retrofit Home Plan** project! This open-source initiative d
 ## Getting Started
 
 ### Prerequisites
-- **Software:** [Sweet Home 3D](https://www.sweethome3d.com/) (free and open-source) for architectural blueprints.
+- **Software:**
+  - [Sweet Home 3D](https://www.sweethome3d.com/) (free and open-source) for architectural blueprints.
+    - [**Plugins**](https://sweethome3d.com/plugins.jsp)
+      - [AdvancedEditing.sh3p](https://sweethome3d.com/plugins.jsp?id=1000000000000000000000000000000000000000)
 - **Development Tools:** Node.js (for running TypeScript scripts locally, optional).
 - **Basic Knowledge:** Familiarity with sustainable building practices (optional but helpful).
 
